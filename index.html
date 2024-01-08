@@ -4,26 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recode StationF</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,
+    wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" 
+    rel="stylesheet">
+
+    
 </head>
 <body>
 
-    <header>
-        <img src="assets\logo.png" alt="Logo de StationF">
+    <header class="header flux" >
+        <img class="logo" src="assets\logo.png" alt="Logo de StationF">
         <nav>
-            <ul>
-                <li><a href="https://www.stationf.co" target="_blank">Start-up</a></li>
-                <li><a href="https://www.stationf.co" target="_blank">Programmes start-up</a></li>
-                <li><a href="https://www.stationf.co" target="_blank">Services</a></li>
-                <li><a href="https://www.stationf.co" target="_blank">Logement</a></li>
-                <li><a href="https://www.stationf.co" target="_blank">Evenement</a></li>
-                <li><a href="https://www.stationf.co" target="_blank">Newsroom</a></li>
+            <ul class="liste-link">
+                <li class="nav-link"><a href="https://www.stationf.co" target="_blank">Start-up</a></li>
+                <li class="nav-link"><a href="https://www.stationf.co" target="_blank">Programmes start-up</a></li>
+                <li class="nav-link"><a href="https://www.stationf.co" target="_blank">Services</a></li>
+                <li class="nav-link"><a href="https://www.stationf.co" target="_blank">Logement</a></li>
+                <li class="nav-link"><a href="https://www.stationf.co" target="_blank">Evenement</a></li>
+                <li class="nav-link"><a href="https://www.stationf.co" target="_blank">Newsroom</a></li>
+                <li class="nav-link"><a class="button" href="#">Postuler</a></li>
             </ul>
         </nav>
         <ul>
             
         </ul>
     </header>
-    <main></main>
+
+    <main>
+
+        <section class="cover flux">
+            <div class="cover-text">
+                <h1 class="cover-title">Le plus grand campus de start-up du monde à Paris</h1>
+                <p class="cover-introduction">
+                    Rejoignez un campus unique et une communauté de plus de 1.000 start-up, 
+                    30 programmes d'accompagnement et de nombreux services au coeur de Paris.
+                </p>
+                <a href=""> 
+                    <img class="icone-scroll" src="assets\arrow-down.svg" alt="fleche vers le bas">
+                </a>
+            </div>
+            <img class="cover-imageoffice" src="assets\home.jpg" alt="photographie des locaux de stationF">
+        </section>
+
+
+
+        <section class="programs">
+            <div class="flux">
+                <div class="programs-text">
+                    <h2 class="title-h2">DONNER LE POUVOIR À LA PROCHAINE GÉNÉRATION D'ENTREPRENEURS</h2>
+                    <p>Avec des ressources disponibles sur le campus et en ligne - 
+                        dont une large communauté d'investisseurs, 
+                        plus de 150 perks, 35 administrations publiques et 
+                        600 événements par an - STATION F offre tout ce dont 
+                        les entrepreneurs ont besoin pour lancer et développer 
+                        leurs projets.
+                    </p>
+                    <a class="button" href="">Trouver mon programme</a>
+                </div>
+                <ul class="programme-image">
+                    <li><img src="assets\hec.webp" alt="logo HEC"></li>
+                    <li><img src="assets\microsoft.webp" alt="Logo Microsoft"></li>
+                    <li><img src="assets\founders.webp" alt="Logo Founders"></li>
+                    <li><img src="assets\edhec.webp" alt="Logo EDHEC"></li>
+                    <li><img src="assets\ef.webp" alt="Logo EF"></li>
+                    <li><img src="assets\thales.webp" alt="Logo Thales"></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+
+
     <footer></footer>
 </body>
 </html>
+
