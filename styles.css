@@ -13,6 +13,10 @@ ul, ol{
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .title-h2 {
     font-size: 40px;
     margin-bottom: 20px;
@@ -25,6 +29,14 @@ ul, ol{
     padding: 10px 20px;
     display: inline-block;
 
+}
+
+.button-orange {
+    background: linear-gradient(90deg, #ffb800, #ffb800);
+}
+
+.button-orange:hover{
+    background: linear-gradient(90deg, #ff3592, #ffb800);
 }
 
 .flux {
@@ -137,7 +149,6 @@ ul, ol{
 
 .programs-text .button{
     margin-top: 25px;
-    background-color: yellow;
 }
 
 .programs-text p {
@@ -164,4 +175,40 @@ ul, ol{
     padding: 30px;
     box-sizing: border-box;
     object-fit: contain;
+}
+
+.online {
+    background: linear-gradient(180deg,#202020 0% 50%, white 50% 100%);
+}
+
+.online-containt {
+    display:flex;
+    padding:75px 50px 50px;
+    background: linear-gradient(90deg, #ff3592, #ffb800);
+    color: white;
+    
+}
+
+.online img {
+    width: 50%;
+    padding-right: 50px;
+
+}
+
+.online-text {
+    width: 50%;
+    line-height: 1.5;
+}
+
+.online .button{
+    background-color: black;
+    margin-top: 50px;
+}
+
+.online .button:hover{
+    background-color: grey;
+    color: black;
+    transition: background-color 0.25s;
+    transition: color 0.25s;
+    
 }
